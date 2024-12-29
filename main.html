@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <style>
 
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+       
+        .holder{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-start
+            ;
+        flex-wrap: wrap;
+           
+        }
+
+        .holder1{
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            
+        }
+
+       
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
 <div class="holder">
-    <div class="item">Item 1</div>
-    <div class="item">Item 2</div>
-    <div class="item">Item 3</div>
+    <div class="holder1 item-1 " style="background-color:red">
+    1
 </div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+<div class="holder1 item-2" style="background-color:blue">
+    2
+</div>
+
+<div class="holder1 item-3"style="background-color: green;">
+   3
+</div>
+
+
+
+
+</div>
 </body>
-
 </html>
